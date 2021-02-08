@@ -1,0 +1,19 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+sensor:
+  - platform: demo
+binary_sensor:
+  - platform: demo
+switch:
+  - platform: demo
+light:
+  - platform: demo
+
+# For communicating with Flutter client
+websocket_api:
